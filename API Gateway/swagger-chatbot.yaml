@@ -1,0 +1,210 @@
+swagger: '2.0'
+info:
+  title: AI Customer Service API
+  description: >-
+    Chatbot - Cloud Computing Assignment 1.
+    By Zhengxi Tian
+  version: 1.0.0
+schemes:
+  - https
+basePath: /v1
+produces:
+  - application/json
+paths:
+  /chatbot:
+  # POST
+    post:
+      summary: The endpoint for the Natural Language Understanding API.
+      description: |
+        This API takes in one or more messages from the client and returns
+        one or more messages as a response. The API leverages the NLP
+        backend functionality, paired with state and profile information
+        and returns a context-aware reply.
+      tags:
+        - chatbot
+      operationId: sendMessage
+      produces:
+        - application/json
+      parameters:
+        - name: body
+          in: body 
+          required: true
+          schema:
+            $ref: '#/definitions/BotRequest'
+      responses:
+        '200':
+          description: A Chatbot response
+          schema:
+            $ref: '#/definitions/BotResponse'
+        '403':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Error'
+        '500':
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+            
+  # GET
+    get:
+      description: |
+        Chatbot gets messages from the users.
+      tags: 
+        - chatbot
+      operationId: getMessage
+      produces: 
+        - application/json
+      # parameters:
+      #   - name: body
+      #     in: body
+      #     required: true
+      #     schema:
+      #       $ref: '#/definitions/BotResponse'
+      responses:
+        '200':
+          description: A Chatbot is waiting for get new request
+          schema:
+            $ref: '#/definitions/BotRequest'
+        '500':
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  
+  /user:
+  # POST: this can be done by user login 
+    post:
+      summary: Create user
+      description: |
+        Create user object.
+      produces:
+        - application/json
+      tags: 
+        - user
+      operationId: createUser
+      parameters:
+        - name: body
+          in: body
+          description: create user object
+          required: true
+          schema:
+            $ref: '#/definitions/User'
+      responses:
+        '404':
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  
+  /user/login:       
+  # GET
+    get:
+      summary: User logs into the chatbot
+      tags:
+        - user
+      operationId: loginUser
+      produces: 
+        - application/json
+      parameters:
+        - name: userID
+          in: query
+          description: The user ID for login
+          required: true
+          type: integer
+        - name: userName
+          in: query
+          description: The user name for login
+          required: true
+          type: string
+        - name: password
+          in: query
+          description: The password for login
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Successful login
+          # schema: 
+          #   type: string
+          # # 登录成功跳转到新页面
+          # headers:
+        
+        '401':
+          description: Invalid username or password supplied
+          schema:
+            $ref: '#/definitions/Error'
+        '404':
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  
+  /user/logout: 
+  # GET
+    get: 
+      summary: User logs out the chatbot
+      tags: 
+        - user
+      operationId: logoutUser
+      produces: 
+        - application/json
+      parameters: []
+      responses:
+        default:
+          description: Logged out
+          
+definitions:
+  BotRequest:
+    type: object
+    properties:
+      messages:
+        type: array
+        items:
+          $ref: '#/definitions/Message'
+          
+  BotResponse:
+    type: object
+    properties:
+      messages:
+        type: array
+        items:
+          $ref: '#/definitions/Message'
+          
+  Message:
+    type: object
+    properties:
+      type:
+        type: string
+      unstructured:
+        $ref: '#/definitions/UnstructuredMessage'
+        
+  UnstructuredMessage:
+    type: object
+    properties:
+      id:
+        type: string
+      text:
+        type: string
+      timestamp:
+        type: string
+        format: datetime
+        
+  User:
+    type: object
+    properties:
+      userID:
+        type: integer
+      userName:
+        type: string
+      password:
+        type: string
+    # required: 
+    # - userID
+    # - userName
+    # - password
+        
+  Error:
+    type: object
+    properties:
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
