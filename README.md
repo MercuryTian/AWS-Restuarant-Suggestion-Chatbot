@@ -1,4 +1,4 @@
-# AWS-Restuarant-Suggestion-Chatbot
+# AWS Restuarant Suggestion Chatbot
 ##### Developer: Zhengxi Tian
 
 
