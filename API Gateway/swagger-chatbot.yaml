@@ -70,85 +70,85 @@ paths:
           schema:
             $ref: '#/definitions/Error'
   
-  /user:
-  # POST: this can be done by user login 
-    post:
-      summary: Create user
-      description: |
-        Create user object.
-      produces:
-        - application/json
-      tags: 
-        - user
-      operationId: createUser
-      parameters:
-        - name: body
-          in: body
-          description: create user object
-          required: true
-          schema:
-            $ref: '#/definitions/User'
-      responses:
-        '404':
-          description: Unexpected error
-          schema:
-            $ref: '#/definitions/Error'
+#   /user:
+#   # POST: this can be done by user login 
+#     post:
+#       summary: Create user
+#       description: |
+#         Create user object.
+#       produces:
+#         - application/json
+#       tags: 
+#         - user
+#       operationId: createUser
+#       parameters:
+#         - name: body
+#           in: body
+#           description: create user object
+#           required: true
+#           schema:
+#             $ref: '#/definitions/User'
+#       responses:
+#         '404':
+#           description: Unexpected error
+#           schema:
+#             $ref: '#/definitions/Error'
   
-  /user/login:       
-  # GET
-    get:
-      summary: User logs into the chatbot
-      tags:
-        - user
-      operationId: loginUser
-      produces: 
-        - application/json
-      parameters:
-        - name: userID
-          in: query
-          description: The user ID for login
-          required: true
-          type: integer
-        - name: userName
-          in: query
-          description: The user name for login
-          required: true
-          type: string
-        - name: password
-          in: query
-          description: The password for login
-          required: true
-          type: string
-      responses:
-        '200':
-          description: Successful login
-          # schema: 
-          #   type: string
-          # # 登录成功跳转到新页面
-          # headers:
+#   /user/login:       
+#   # GET
+#     get:
+#       summary: User logs into the chatbot
+#       tags:
+#         - user
+#       operationId: loginUser
+#       produces: 
+#         - application/json
+#       parameters:
+#         - name: userID
+#           in: query
+#           description: The user ID for login
+#           required: true
+#           type: integer
+#         - name: userName
+#           in: query
+#           description: The user name for login
+#           required: true
+#           type: string
+#         - name: password
+#           in: query
+#           description: The password for login
+#           required: true
+#           type: string
+#       responses:
+#         '200':
+#           description: Successful login
+#           # schema: 
+#           #   type: string
+#           # # 登录成功跳转到新页面
+#           # headers:
         
-        '401':
-          description: Invalid username or password supplied
-          schema:
-            $ref: '#/definitions/Error'
-        '404':
-          description: Unexpected error
-          schema:
-            $ref: '#/definitions/Error'
+#         '401':
+#           description: Invalid username or password supplied
+#           schema:
+#             $ref: '#/definitions/Error'
+#         '404':
+#           description: Unexpected error
+#           schema:
+#             $ref: '#/definitions/Error'
   
-  /user/logout: 
-  # GET
-    get: 
-      summary: User logs out the chatbot
-      tags: 
-        - user
-      operationId: logoutUser
-      produces: 
-        - application/json
-      parameters: []
-      responses:
-        default:
-          description: Logged out
+#   /user/logout: 
+#   # GET
+#     get: 
+#       summary: User logs out the chatbot
+#       tags: 
+#         - user
+#       operationId: logoutUser
+#       produces: 
+#         - application/json
+#       parameters: []
+#       responses:
+#         default:
+#           description: Logged out
           
 definitions:
   BotRequest:
