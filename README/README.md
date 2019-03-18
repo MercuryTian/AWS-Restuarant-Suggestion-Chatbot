@@ -2,7 +2,7 @@
 
 ##### Zhengxi Tian - zt586
 
-Xinyu Xiao - xxx869
+Xinyu Xiao - xx869
 
 
 
@@ -687,6 +687,26 @@ https://userlogin.auth.us-east-1.amazoncognito.com//login?response_type=token&cl
 - DiningSuggestionsIntent: Integrating `DiningSuggestionIntent` with LF1.
 
 ![dinningIntent](/Users/macbook/Desktop/chatbot_zt/README/dinningIntent.png)
+
+2. To start conversation:
+
+- Utterance to trigger **GreetingIntent**
+
+   - Hi
+   - Hello
+   - I need some restaurant suggestions
+
+- Utterance to trigger **DiningSuggestionsIntent**
+
+   - I need help.
+   - I don't know where to eat.
+   - I need some restaurant suggestions.
+
+- Utterance to trigger **ThankYouIntent**
+
+   - Thanks
+   - Thank you
+   - Thanks for your help
 
 2. Call Yelp API:
 
