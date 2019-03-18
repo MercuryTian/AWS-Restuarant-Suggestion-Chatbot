@@ -9,5 +9,28 @@ https://userlogin.auth.us-east-1.amazoncognito.com//login?response_type=token&cl
 
 
 
-For more details, please see the `README.MD` document under `README` path.
+To start conversation:
 
+1. Utterance to trigger **GreetingIntent**
+
+   - Hi
+
+   - Hello
+
+   - I need some restaurant suggestions
+
+2. Utterance to trigger **DiningSuggestionsIntent**
+
+   - I need help.
+   - I don't know where to eat.
+   - I need some restaurant suggestions.
+
+3. Utterance to trigger **ThankYouIntent**
+
+   - Thanks
+   - Thank you
+   - Thanks for your help
+
+
+
+For more details, please see the `README.MD` document under `README` path.
