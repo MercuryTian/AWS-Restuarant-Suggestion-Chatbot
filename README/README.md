@@ -44,7 +44,7 @@ https://userlogin.auth.us-east-1.amazoncognito.com//login?response_type=token&cl
 
    If cannot add bucket policy, check `Manage public access control lists (ACLs)` and turn them to False.
 
-   ![bucket-permission](/Users/macbook/Desktop/chatbot_zt/README/bucket-permission.png)
+   ![bucket-permission](https://github.com/MercuryTian/AWS-Restuarant-Suggestion-Chatbot/blob/master/README/bucket-permission.png)
 
 3. Upload `chatbot.html` and javascript SDK to S3, then make public resources in S3. The main codes include in S3 folder are `chatbot.html` and `apiGateway-js-sdk`.
 
@@ -83,7 +83,7 @@ Version: `Swagger 2.0`
 
   `flx55nycvg`
 
-  ![API-key](/Users/macbook/Desktop/chatbot_zt/README/API-key.png)
+  ![API-key](https://github.com/MercuryTian/AWS-Restuarant-Suggestion-Chatbot/blob/master/README/API-key.png)
 
 -  Include references to the following scripts:
 
@@ -184,7 +184,7 @@ Version: `Swagger 2.0`
 
 2. Author a Python lambda function from scratch。
 
-   ![author-lambda](/Users/macbook/Desktop/chatbot_zt/README/author-lambda.png)
+   ![author-lambda](https://github.com/MercuryTian/AWS-Restuarant-Suggestion-Chatbot/blob/master/README/author-lambda.png)
 
    - Select `Author from scratch`. Create a name for the lambda function.
    - Change runtime to `Python 3.6`.
@@ -610,7 +610,7 @@ Version: `Swagger 2.0`
 
   `http://userlogin.auth.us-east-1.amazoncognito.com`
 
-  ![appintegretion](/Users/macbook/Desktop/chatbot_zt/README/appintegretion.png)
+  ![appintegretion](https://github.com/MercuryTian/AWS-Restuarant-Suggestion-Chatbot/blob/master/README/appintegretion.png)
 
 - Type the domain in a new web page
 
@@ -686,7 +686,7 @@ https://userlogin.auth.us-east-1.amazoncognito.com//login?response_type=token&cl
 - ThankYouIntent
 - DiningSuggestionsIntent: Integrating `DiningSuggestionIntent` with LF1.
 
-![dinningIntent](/Users/macbook/Desktop/chatbot_zt/README/dinningIntent.png)
+![dinningIntent](https://github.com/MercuryTian/AWS-Restuarant-Suggestion-Chatbot/blob/master/README/dinningIntent.png)
 
 2. To start conversation:
 
