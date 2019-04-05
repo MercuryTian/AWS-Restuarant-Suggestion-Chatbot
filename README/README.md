@@ -2,7 +2,6 @@
 
 ##### Zhengxi Tian - zt586
 
-Xinyu Xiao - xx869
 
 
 
