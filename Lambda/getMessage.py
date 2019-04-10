@@ -180,7 +180,7 @@ def isvalid_city(city):
 
 
 def isvalid_cuisine(cuisine):
-	valid_cuisines = ['chinese', 'japanese', 'korean', 'spanish', 'american', 'bbq', 'steakhouse', 'bar']
+	valid_cuisines = ['chinese', 'japanese', 'korean', 'spanish', 'american', 'bbq', 'steakhouse', 'bar', 'mexican', 'indian']
 	return cuisine.lower() in valid_cuisines
 
 
@@ -294,7 +294,7 @@ def suggest_dining(intent_request):
         'Fulfilled',
         {
             'contentType': 'PlainText',
-            'content': 'Here are my {} restaurant suggestions for {} people, for {} at {}: 1. {} located at {} '.format(cuisine, number_people, dining_date, dating_time, name, address)
+            'content': 'Here are my {} restaurant suggestions for {} people, for {} at {}: 1. {} located at {} '.format(cuisine, number_people, dining_date, location, dating_time, name, address)
         }
     )
 
