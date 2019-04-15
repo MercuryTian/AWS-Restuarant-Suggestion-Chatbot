@@ -34,13 +34,12 @@ except ImportError:
     from urllib import quote
     from urllib import urlencode
 
-"""
+
 # Yelp Fusion no longer uses OAuth as of December 7, 2017.
 # You no longer need to provide Client ID to fetch Data
 # It now uses private keys to authenticate requests (API Key)
-# You can find it on https://www.yelp.com/developers/v3/manage_app
-"""
-# Call the external API
+# You can find it on
+# https://www.yelp.com/developers/v3/manage_app
 API_KEY= "SrHaKm69SIfHIZXjD_M9GJMrNUfoqpHhT508oRRFnM18UbSEycvEcOc4EoYJzyUGy2fCqrVXwO_cRLeAei_qellDKnbY5MtcOXbETW_FgyXdLUUSnoDo8ILiysiKXHYx" 
 
 API_HOST = 'https://api.yelp.com'
@@ -152,7 +151,7 @@ def safe_int(n):
     """
     Safely convert n value to int.
     """
-    if n:
+    if n is not None:
         return int(n)
     return n
 
@@ -164,6 +163,7 @@ def try_ex(func):
 
     Note that this function would have negative impact on performance.
     """
+
     try:
         return func()
     except KeyError:
@@ -193,6 +193,8 @@ def isvalid_date(date):
 
 
 
+
+
 def build_validation_result(isvalid, violated_slot, message_content):
     return {
         'isValid': isvalid,
@@ -211,14 +213,14 @@ def validate_requirement(slots):
         return build_validation_result(
             False,
             'location',
-            'We currently do not support {} as a valid destination.  Can please you try a different city?'.format(location)
+            'We currently do not support {} as a valid destination.  Can you try a different city?'.format(location)
         )
 
     if cuisine and not isvalid_cuisine(cuisine):
         return build_validation_result(
             False,
             'cuisine',
-            'We currently do not support {} as a valid cuisine.  Can you please try a different cuisine?'.format(cuisine)
+            'We currently do not support {} as a valid cuisine.  Can you try a different cuisine?'.format(cuisine)
         ) 
 
     if dining_date:
@@ -246,7 +248,7 @@ def suggest_dining(intent_request):
     cuisine = try_ex(lambda: intent_request['currentIntent']['slots']['cuisine'])
     number_people = try_ex(lambda: intent_request['currentIntent']['slots']['number_people'])
     dining_date = try_ex(lambda: intent_request['currentIntent']['slots']['dining_date'])
-    dating_time = try_ex(lambda: intent_request['currentIntent']['slots']['dating_time'])
+    dining_time = try_ex(lambda: intent_request['currentIntent']['slots']['dining_time'])
     
     session_attributes = intent_request['sessionAttributes'] if intent_request['sessionAttributes'] is not None else {}
 
@@ -256,7 +258,7 @@ def suggest_dining(intent_request):
         'cuisine': cuisine,
         'number_people': number_people,
         'dining_date': dining_date,
-        'dating_time': dating_time
+        'dining_time': dining_time
     })
 
     session_attributes['suggestion'] = suggestion
@@ -276,6 +278,9 @@ def suggest_dining(intent_request):
                 validation_result['message']
             )
 
+       
+        
+
         session_attributes['suggestion'] = suggestion
         return delegate(session_attributes, intent_request['currentIntent']['slots'])
 
@@ -284,24 +289,32 @@ def suggest_dining(intent_request):
     try_ex(lambda: session_attributes.pop('suggestion'))
     session_attributes['lastConfirmedReservation'] = suggestion
 
-    # Invoke Yelp API
-    yelp_response = search(API_KEY, "restaurant", location)
-    name = yelp_response['businesses'][0]['name']
-    address = yelp_response['businesses'][0]['location']['address1']
-
+    #invoke Yelp API
+    yelp_response = search(API_KEY, cuisine, location)
+    tmp = cuisine + " restaurant"
+    name1 = yelp_response['businesses'][0]['name'] if yelp_response['businesses'][0]['name'] else tmp
+    address1 = yelp_response['businesses'][0]['location']['address1']
+    name2 = yelp_response['businesses'][1]['name'] if yelp_response['businesses'][1]['name'] else tmp
+    address2 = yelp_response['businesses'][1]['location']['address1']
+    name3 = yelp_response['businesses'][2]['name'] if yelp_response['businesses'][2]['name'] else tmp
+    address3 = yelp_response['businesses'][2]['location']['address1']
+    # dining_time = intent_request['slots']['dining_time']
     return close(
         session_attributes,
         'Fulfilled',
         {
             'contentType': 'PlainText',
-            'content': 'Here are my {} restaurant suggestions for {} people, for {} at {}: 1. {} located at {} '.format(cuisine, number_people, dining_date, location, dating_time, name, address)
+            'content': 'Here are my {} restaurant suggestions for {} people, on {}, {} at {}: (1). {} located at {} (2). {} located at {} (3). {} located at {}'
+            .format(cuisine, number_people, dining_date, dining_time, location, name1, address1, name2, address2, name3, address3)
         }
     )
 
 def trivial_response(intent_request):
 	pass
 
+
 # --- Intents ---
+
 
 def dispatch(intent_request):
     """
@@ -332,6 +345,6 @@ def lambda_handler(event, context):
     # By default, treat the user request as coming from the America/New_York time zone.
     os.environ['TZ'] = 'America/New_York'
     time.tzset()
-    logger.debug('event.bot.name={}'.format(event['bot']['name']))
+   
 
     return dispatch(event)
