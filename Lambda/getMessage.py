@@ -18,6 +18,7 @@ import logging
 from botocore.vendored import requests
 import sys
 import urllib
+import boto3
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
@@ -163,12 +164,10 @@ def try_ex(func):
 
     Note that this function would have negative impact on performance.
     """
-
     try:
         return func()
     except KeyError:
         return None
-
 
 
 def isvalid_city(city):
@@ -192,9 +191,6 @@ def isvalid_date(date):
         return False
 
 
-
-
-
 def build_validation_result(isvalid, violated_slot, message_content):
     return {
         'isValid': isvalid,
@@ -203,11 +199,11 @@ def build_validation_result(isvalid, violated_slot, message_content):
     }
 
 
-
 def validate_requirement(slots):
     location = try_ex(lambda: slots['Location'])
     cuisine = try_ex(lambda: slots['cuisine'])
     dining_date = try_ex(lambda: slots['dining_date'])
+    email = try_ex(lambda: slots['email'])
 
     if location and not isvalid_city(location):
         return build_validation_result(
@@ -229,6 +225,13 @@ def validate_requirement(slots):
         if datetime.datetime.strptime(dining_date, '%Y-%m-%d').date() <= datetime.date.today():
             return build_validation_result(False, 'dining_date', 'Reservations must be scheduled at least one day in advance.  Can you try a different date?')
 
+    if email and '@' not in email:
+        return build_validation_result(
+            False,
+            'email',
+            'Sorry, {} is not a valid email address. Please provide a valid email address.'.format(email)
+        )
+
     return {'isValid': True}
 
 
@@ -249,6 +252,7 @@ def suggest_dining(intent_request):
     number_people = try_ex(lambda: intent_request['currentIntent']['slots']['number_people'])
     dining_date = try_ex(lambda: intent_request['currentIntent']['slots']['dining_date'])
     dining_time = try_ex(lambda: intent_request['currentIntent']['slots']['dining_time'])
+    email = try_ex(lambda: intent_request['currentIntent']['slots']['email'])
     
     session_attributes = intent_request['sessionAttributes'] if intent_request['sessionAttributes'] is not None else {}
 
@@ -258,9 +262,18 @@ def suggest_dining(intent_request):
         'cuisine': cuisine,
         'number_people': number_people,
         'dining_date': dining_date,
-        'dining_time': dining_time
+        'dining_time': dining_time,
+        'email': email
     })
+    print("SUGGESTION: {}".format(suggestion))
 
+    # Send the requests from users to the SQS
+    sqs = boto3.resource('sqs')
+    queue = sqs.get_queue_by_name(QueueName = "requests") # get the URL of SQS
+    if location and cuisine and number_people and dining_date and dining_time and email:
+        queue_response = queue.send_message(MessageBody = suggestion)
+        print("SUCESSFULLY SENDING TO SQS")
+        
     session_attributes['suggestion'] = suggestion
 
     if intent_request['invocationSource'] == 'DialogCodeHook':
@@ -278,8 +291,6 @@ def suggest_dining(intent_request):
                 validation_result['message']
             )
 
-       
-        
 
         session_attributes['suggestion'] = suggestion
         return delegate(session_attributes, intent_request['currentIntent']['slots'])
@@ -289,7 +300,8 @@ def suggest_dining(intent_request):
     try_ex(lambda: session_attributes.pop('suggestion'))
     session_attributes['lastConfirmedReservation'] = suggestion
 
-    #invoke Yelp API
+    """ ### --- Assignment 1 --- ### 
+    # Invoke Yelp API
     yelp_response = search(API_KEY, cuisine, location)
     tmp = cuisine + " restaurant"
     name1 = yelp_response['businesses'][0]['name'] if yelp_response['businesses'][0]['name'] else tmp
@@ -298,7 +310,7 @@ def suggest_dining(intent_request):
     address2 = yelp_response['businesses'][1]['location']['address1']
     name3 = yelp_response['businesses'][2]['name'] if yelp_response['businesses'][2]['name'] else tmp
     address3 = yelp_response['businesses'][2]['location']['address1']
-    # dining_time = intent_request['slots']['dining_time']
+
     return close(
         session_attributes,
         'Fulfilled',
@@ -308,6 +320,18 @@ def suggest_dining(intent_request):
             .format(cuisine, number_people, dining_date, dining_time, location, name1, address1, name2, address2, name3, address3)
         }
     )
+    """
+
+    ### --- Assignment 2 --- ###
+    return close(
+        session_attributes,
+        'Fulfilled',
+        {
+            'contentType': 'PlainText',
+            'content': 'You’re all set. A reservation will send to your email later. Expect my suggestions shortly! Have a good day.'
+        }
+    )
+
 
 def trivial_response(intent_request):
 	pass

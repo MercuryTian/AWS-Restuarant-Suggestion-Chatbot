@@ -1,0 +1,400 @@
+{ "index": {"_type": "Restaurant", "_id": "1", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "La Contenta", "id": "6Ct7OeTRn4caY9g0swFBsw"}
+{ "index": {"_type": "Restaurant", "_id": "2", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Toloache 50", "id": "Wx6lMnEh7dCmX-9PQF1Ifw"}
+{ "index": {"_type": "Restaurant", "_id": "3", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Barrio Chino", "id": "RzKR9QcYP03EQ_8DxTxowg"}
+{ "index": {"_type": "Restaurant", "_id": "4", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Jajaja", "id": "XipQLDbyTl5tsLlyzAWzug"}
+{ "index": {"_type": "Restaurant", "_id": "5", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Rosie's", "id": "9aJ1MVTthZw3QjqoG7mPjg"}
+{ "index": {"_type": "Restaurant", "_id": "6", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "La Loteria", "id": "pG-IkylRFOb-HlaD8NwvvQ"}
+{ "index": {"_type": "Restaurant", "_id": "7", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Mamasita Bar & Grill", "id": "xemN4tP9RlK5c-yUT-M71Q"}
+{ "index": {"_type": "Restaurant", "_id": "8", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Toro Loco", "id": "nrwOQSXoRXfAYhkdjiUk8g"}
+{ "index": {"_type": "Restaurant", "_id": "9", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Don Chingon", "id": "X2C0_I0seTtjW9uL8e8FBw"}
+{ "index": {"_type": "Restaurant", "_id": "10", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "El Camion", "id": "BbMUXd69i0tlWS2aoppwaQ"}
+{ "index": {"_type": "Restaurant", "_id": "11", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Metro Taco", "id": "MhGjWgAFFyb6QMwUIkhpBQ"}
+{ "index": {"_type": "Restaurant", "_id": "12", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Calexico", "id": "7bD22UAtH56ikWYslOSIQg"}
+{ "index": {"_type": "Restaurant", "_id": "13", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Gran Electrica", "id": "f7g3GhoQs9nQVTJEL2p48Q"}
+{ "index": {"_type": "Restaurant", "_id": "14", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Toloache Thompson", "id": "_Kc_mFOk7zMPDcDhkdJE7A"}
+{ "index": {"_type": "Restaurant", "_id": "15", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Ofrenda", "id": "9_CEU7Wmvmwlyvqr-PJD6w"}
+{ "index": {"_type": "Restaurant", "_id": "16", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Chela Modern Mexican", "id": "CfOBb6NU2awo8xclJpKU3g"}
+{ "index": {"_type": "Restaurant", "_id": "17", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Mesa Coyoacan", "id": "mmAlHhnTDXIohPC3wfl0hQ"}
+{ "index": {"_type": "Restaurant", "_id": "18", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Mad Dog & Beans Mexican Cantina", "id": "DTKKEogIt2wQm4UULYVGug"}
+{ "index": {"_type": "Restaurant", "_id": "19", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Tacuba Hell's Kitchen", "id": "ihzI-4yGesoQuAoIocao8g"}
+{ "index": {"_type": "Restaurant", "_id": "20", "_index": "restaurants"} }
+{"cuisine": "mexican", "name": "Ojala Comida Mexicana", "id": "_B0NHhM3GmirV68XE5csSA"}
+{ "index": {"_type": "Restaurant", "_id": "21", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Chow House", "id": "0dDCDQz7DrKkSvu9h2hcQw"}
+{ "index": {"_type": "Restaurant", "_id": "22", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Wah Fung No 1 Fast Food", "id": "X8ZS-dgiMIJvhwf9SaDnjw"}
+{ "index": {"_type": "Restaurant", "_id": "23", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Han Dynasty", "id": "wfhMIiMh2A2psCGONOVSlg"}
+{ "index": {"_type": "Restaurant", "_id": "24", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Caf\u00e9 China", "id": "xq0cX_DgxiJMXwhmEl9kUA"}
+{ "index": {"_type": "Restaurant", "_id": "25", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Shu Jiao Fu Zhou Cuisine Restaurant", "id": "lynQoI3w_pzYfHGeuUU-Qg"}
+{ "index": {"_type": "Restaurant", "_id": "26", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Joe's Shanghai", "id": "0CjK3esfpFcxIopebzjFxA"}
+{ "index": {"_type": "Restaurant", "_id": "27", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "China Blue", "id": "0k678lCWQyReNi0lARlOmw"}
+{ "index": {"_type": "Restaurant", "_id": "28", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Han Dynasty", "id": "ojbH3wnRu050hRhkmoxRiA"}
+{ "index": {"_type": "Restaurant", "_id": "29", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Clay Pot - East Village", "id": "ZCAkVl5SeCDeBWg_xjfYeg"}
+{ "index": {"_type": "Restaurant", "_id": "30", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Kings Co Imperial", "id": "vZgJyMZlpSSS_Y-duxd4_A"}
+{ "index": {"_type": "Restaurant", "_id": "31", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Jiang Diner", "id": "qHi_FA4zSEkFshXQ4Chc9A"}
+{ "index": {"_type": "Restaurant", "_id": "32", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Fishmarket Restaurant", "id": "LpVbI-E9C-CSp7WhU5h2Iw"}
+{ "index": {"_type": "Restaurant", "_id": "33", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Hunan Delight", "id": "_XLLSXPIjgoZQtwU3RCcQA"}
+{ "index": {"_type": "Restaurant", "_id": "34", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "21 Shanghai House", "id": "ynB8T3htx8s5V0YV8gVPGA"}
+{ "index": {"_type": "Restaurant", "_id": "35", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Noodle Village", "id": "bnDfFdiCcPzhuNWUJORvLQ"}
+{ "index": {"_type": "Restaurant", "_id": "36", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Yaso Tangbao", "id": "xH7mEjh4Rn6KdHjXYNoOjw"}
+{ "index": {"_type": "Restaurant", "_id": "37", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Hao Noodle and Tea By Madam Zhu's Kitchen", "id": "scTDvJ2M2jDbb1ntVeIyxA"}
+{ "index": {"_type": "Restaurant", "_id": "38", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Han Dynasty", "id": "Q1TpfbuPwKPFrNFyu-u2_g"}
+{ "index": {"_type": "Restaurant", "_id": "39", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "Birds of a Feather", "id": "iSjPBJRiWqrgxW7ZM3CGig"}
+{ "index": {"_type": "Restaurant", "_id": "40", "_index": "restaurants"} }
+{"cuisine": "chinese", "name": "88 Lan Zhou Handmade Noodle", "id": "Lbs8QBRN1U7IYBo5Mcv-RQ"}
+{ "index": {"_type": "Restaurant", "_id": "41", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Ootoya Chelsea", "id": "OLSSJIp8pu5UlugTF7tuHA"}
+{ "index": {"_type": "Restaurant", "_id": "42", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Benemon", "id": "axqp3pGJXnTLgq2QrPyDyQ"}
+{ "index": {"_type": "Restaurant", "_id": "43", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Raku", "id": "FlZ1zdVEKWv7dwqm8Uw8-w"}
+{ "index": {"_type": "Restaurant", "_id": "44", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Izakaya MEW", "id": "klAhw3xLQi9GF1tf_HnS7w"}
+{ "index": {"_type": "Restaurant", "_id": "45", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Sakagura", "id": "7iY35991NhQ1AShJZCNZgA"}
+{ "index": {"_type": "Restaurant", "_id": "46", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "DOMODOMO", "id": "BPZfuPvSxCfoppU4lPFm0Q"}
+{ "index": {"_type": "Restaurant", "_id": "47", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "nonono", "id": "qm1J_dPA5IHij1oAnoZwHw"}
+{ "index": {"_type": "Restaurant", "_id": "48", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "ichiba kitchen", "id": "skhPdP1hEmyZzaJMpP_wIQ"}
+{ "index": {"_type": "Restaurant", "_id": "49", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Okonomi", "id": "7OMGEtFWT6sdd9TVuoGqJQ"}
+{ "index": {"_type": "Restaurant", "_id": "50", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Izakaya Juraku", "id": "RYKGs45OjF-vlb2Ds2Jb_g"}
+{ "index": {"_type": "Restaurant", "_id": "51", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Kaikagetsu NYC", "id": "ax4INkzwL__-d_kGJfcA-w"}
+{ "index": {"_type": "Restaurant", "_id": "52", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Momokawa", "id": "kwq1W0opBnOYKoUXWYyQ5g"}
+{ "index": {"_type": "Restaurant", "_id": "53", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Izakaya", "id": "i8F0fnempD5fTb2CxbwKDw"}
+{ "index": {"_type": "Restaurant", "_id": "54", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Rabbit House", "id": "NiFmuqLM-apdMX_jBPVIgw"}
+{ "index": {"_type": "Restaurant", "_id": "55", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Bozu", "id": "lxQ-tzFmL1tmUqZUN-CSRQ"}
+{ "index": {"_type": "Restaurant", "_id": "56", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Takashi", "id": "6qzNc9Z9DHYYleKqrW_K3g"}
+{ "index": {"_type": "Restaurant", "_id": "57", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Hatsuhana Sushi Restaurant", "id": "6lUsFj0KCao678o9L7QwUw"}
+{ "index": {"_type": "Restaurant", "_id": "58", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Ise Restaurant", "id": "pNe8ZCkGTe4cXfKdOF7kYQ"}
+{ "index": {"_type": "Restaurant", "_id": "59", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Fukurou", "id": "Uu1wc7CrweSIB4B7FLdbwg"}
+{ "index": {"_type": "Restaurant", "_id": "60", "_index": "restaurants"} }
+{"cuisine": "japanese", "name": "Yopparai", "id": "kN3rkbjvqkY62CDRYUVz4g"}
+{ "index": {"_type": "Restaurant", "_id": "61", "_index": "restaurants"} }
+{"cuisine": "american", "name": "The Smith", "id": "C-8mGN7lt5rIraO5n-15ug"}
+{ "index": {"_type": "Restaurant", "_id": "62", "_index": "restaurants"} }
+{"cuisine": "american", "name": "The Poni Room", "id": "63xEppObiNqq_lVE5HGFvw"}
+{ "index": {"_type": "Restaurant", "_id": "63", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Bea", "id": "Rc1lxc5lSKJYd162JHNMfQ"}
+{ "index": {"_type": "Restaurant", "_id": "64", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Uglyduckling", "id": "CwOAKJdX8AMz5iAoA-ZEuA"}
+{ "index": {"_type": "Restaurant", "_id": "65", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Crown Shy", "id": "_0WFGjXuenlBixOlbSlGeQ"}
+{ "index": {"_type": "Restaurant", "_id": "66", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Valerie", "id": "zRXMvxUX_rOliKZPpkWi_g"}
+{ "index": {"_type": "Restaurant", "_id": "67", "_index": "restaurants"} }
+{"cuisine": "american", "name": "BH Kitchen & Bar", "id": "6MgQz0SEOYUih2N5JOa6rg"}
+{ "index": {"_type": "Restaurant", "_id": "68", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Benson's NYC", "id": "x7hsZRd_MyrUgAW91FM9qA"}
+{ "index": {"_type": "Restaurant", "_id": "69", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Jacob's Pickles", "id": "xt4sa64WOrpJvZBDPNPNYg"}
+{ "index": {"_type": "Restaurant", "_id": "70", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Rabbithole Restaurant", "id": "np98mkA22LYf6kCwCL59pw"}
+{ "index": {"_type": "Restaurant", "_id": "71", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Tribeca's Kitchen", "id": "MHtbBc2np3sR7jiV9GphNg"}
+{ "index": {"_type": "Restaurant", "_id": "72", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Jane", "id": "uoT2_Wrt1noD6kZOID7tUg"}
+{ "index": {"_type": "Restaurant", "_id": "73", "_index": "restaurants"} }
+{"cuisine": "american", "name": "District Social", "id": "eTR6nfHvQzvKX7Dcd6JrfA"}
+{ "index": {"_type": "Restaurant", "_id": "74", "_index": "restaurants"} }
+{"cuisine": "american", "name": "The Ribbon", "id": "BQRfaq0U75B5EEblBZ2Aqg"}
+{ "index": {"_type": "Restaurant", "_id": "75", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Sunday in Brooklyn", "id": "9AXTJkwXdWaJaQkCjpj6mA"}
+{ "index": {"_type": "Restaurant", "_id": "76", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Friedman's", "id": "cCesIqo-LQt0cRlZAnrAZQ"}
+{ "index": {"_type": "Restaurant", "_id": "77", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Parker & Quinn", "id": "IOHaEgK1zDvUvB3SfKuGCw"}
+{ "index": {"_type": "Restaurant", "_id": "78", "_index": "restaurants"} }
+{"cuisine": "american", "name": "Brindle Room", "id": "sVG1whNWHhlbjP6p027YcA"}
+{ "index": {"_type": "Restaurant", "_id": "79", "_index": "restaurants"} }
+{"cuisine": "american", "name": "The Brazen Tavern", "id": "Xu8H24NxJJxEE-9wGp_AMA"}
+{ "index": {"_type": "Restaurant", "_id": "80", "_index": "restaurants"} }
+{"cuisine": "american", "name": "The Smith", "id": "Xd_l7jtUAZZAAvK8-mI2Jw"}
+{ "index": {"_type": "Restaurant", "_id": "81", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "The MasalaWala", "id": "sCC7-hSdCkNPExejZT9BAQ"}
+{ "index": {"_type": "Restaurant", "_id": "82", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Bengal Tiger Indian Food", "id": "x0k5kFArHLijdY8-NEQ7Xg"}
+{ "index": {"_type": "Restaurant", "_id": "83", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Benares", "id": "iXSuNKKUBIrBX7zUerlQDQ"}
+{ "index": {"_type": "Restaurant", "_id": "84", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Pippali", "id": "HEs6llkn3wIP1ATXeIZQew"}
+{ "index": {"_type": "Restaurant", "_id": "85", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Indian Table", "id": "BXoW0AUDE7WZJcY-Vhqlbg"}
+{ "index": {"_type": "Restaurant", "_id": "86", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Ashoka Indian Restaurant", "id": "15svH3HiVDwHMSIlRYpk6A"}
+{ "index": {"_type": "Restaurant", "_id": "87", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Tikka Indian Grill", "id": "WWpOWqOgS9ClYvxYVzR0lg"}
+{ "index": {"_type": "Restaurant", "_id": "88", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Aahar Indian Cuisine", "id": "_z2_1TE_1brlvljiGtJ4mA"}
+{ "index": {"_type": "Restaurant", "_id": "89", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "The Drunken Munkey - UES", "id": "9pMhRYYgV7E9L7pzECtJKA"}
+{ "index": {"_type": "Restaurant", "_id": "90", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Malai Marke Indian Cuisine", "id": "7DUPGtHqVZHJ3yIufbWLsg"}
+{ "index": {"_type": "Restaurant", "_id": "91", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Mughlai Grill", "id": "_7BGw3YFNOTzP1Www3zB7g"}
+{ "index": {"_type": "Restaurant", "_id": "92", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Tamarind", "id": "kS2CP48K66yL2TwIhUqy_A"}
+{ "index": {"_type": "Restaurant", "_id": "93", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Adda", "id": "Xl-zlT0NLLiKhym88em22w"}
+{ "index": {"_type": "Restaurant", "_id": "94", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Spice & Grill", "id": "iXrKGRzIZK0pp31mO3nBzA"}
+{ "index": {"_type": "Restaurant", "_id": "95", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Surya", "id": "_R6EjbrynW_LFnmWoRqgww"}
+{ "index": {"_type": "Restaurant", "_id": "96", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Kitchen Grill Indian Restaurant", "id": "YDtIHtfvWd4W36wq6UAjoA"}
+{ "index": {"_type": "Restaurant", "_id": "97", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Mint Masala", "id": "FvnExtQHPfz_crDCBTQ1iQ"}
+{ "index": {"_type": "Restaurant", "_id": "98", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Baar Baar", "id": "jYhbUh1TV7SCfPxjIhVpcg"}
+{ "index": {"_type": "Restaurant", "_id": "99", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Indian Accent", "id": "1_pK5aQ47atF50oAKHADhA"}
+{ "index": {"_type": "Restaurant", "_id": "100", "_index": "restaurants"} }
+{"cuisine": "indian", "name": "Ahimsa", "id": "N7pDKAFOR1F_oCVH_Fc7Wg"}
+{ "index": {"_type": "Restaurant", "_id": "101", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Peter Luger", "id": "4yPqqJDJOQX69gC66YUDkA"}
+{ "index": {"_type": "Restaurant", "_id": "102", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Club A Steakhouse", "id": "A_YpTLbAlEqeLVSs9bxbEA"}
+{ "index": {"_type": "Restaurant", "_id": "103", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "DeStefano's Steakhouse", "id": "hthvpEL7JEbfxfD6iP9axQ"}
+{ "index": {"_type": "Restaurant", "_id": "104", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Del Frisco's Double Eagle Steakhouse", "id": "b8a-8u_A51v2IzyjLVsx6w"}
+{ "index": {"_type": "Restaurant", "_id": "105", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Keens Steakhouse", "id": "pQuZDnefX038xurT1BhDXA"}
+{ "index": {"_type": "Restaurant", "_id": "106", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Boucherie Union Square", "id": "8XHbZIKDQbXhyKIGiukVeQ"}
+{ "index": {"_type": "Restaurant", "_id": "107", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Gallaghers Steakhouse", "id": "hk3ohp_A4L4UgWTexDxf_Q"}
+{ "index": {"_type": "Restaurant", "_id": "108", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Boucherie West Village", "id": "s3jou_L_LVYGkNHiuhjlew"}
+{ "index": {"_type": "Restaurant", "_id": "109", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Rocco Steakhouse", "id": "REDWyPG0UJc5u8iU8mP6Hw"}
+{ "index": {"_type": "Restaurant", "_id": "110", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Salt + Charcoal", "id": "m1cJLpDN4B-_0hGgPfe5OA"}
+{ "index": {"_type": "Restaurant", "_id": "111", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Bowery Meat Company", "id": "qpkFmGyvbZv-g2fbwyNQUg"}
+{ "index": {"_type": "Restaurant", "_id": "112", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Wolfgang's Steakhouse", "id": "ikb5lhHmb2xndNZM-jr_Mw"}
+{ "index": {"_type": "Restaurant", "_id": "113", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "4 Charles Prime Rib", "id": "ZOa13veZkzGjA-x3kMfOmA"}
+{ "index": {"_type": "Restaurant", "_id": "114", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Quality Meats", "id": "kB-lmHs7yNwLIlQyp0kMmQ"}
+{ "index": {"_type": "Restaurant", "_id": "115", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Ikinari Steak East Village", "id": "kr_Wu5m0P-AEghraNqXeTA"}
+{ "index": {"_type": "Restaurant", "_id": "116", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Strip House", "id": "DijUyfUGs6WoN4dp0_OANQ"}
+{ "index": {"_type": "Restaurant", "_id": "117", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Wolfgang's Steakhouse", "id": "hFZ5qw8gvWiBUbmbahSalg"}
+{ "index": {"_type": "Restaurant", "_id": "118", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Mastro's Steakhouse", "id": "iAoHFfB_T8U31PhIzD-o_g"}
+{ "index": {"_type": "Restaurant", "_id": "119", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "Amber Steak House", "id": "l2ROlwwJcTPmi_2l3A9oyQ"}
+{ "index": {"_type": "Restaurant", "_id": "120", "_index": "restaurants"} }
+{"cuisine": "steakhouse", "name": "El Mate", "id": "L0XYugkXpuACPMQ451MB8g"}
+{ "index": {"_type": "Restaurant", "_id": "121", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Despa\u00f1a", "id": "cUyfnb3E7HvzNfbTgTjl_Q"}
+{ "index": {"_type": "Restaurant", "_id": "122", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Alta", "id": "XEugUtbw4rRmGr9S1XA-aQ"}
+{ "index": {"_type": "Restaurant", "_id": "123", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Las Ramblas", "id": "WFOaud0jlpXQ9aEecipUqg"}
+{ "index": {"_type": "Restaurant", "_id": "124", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Socarrat Paella Bar - Chelsea", "id": "DiHm4iIAQhqMKfjsrBPvZw"}
+{ "index": {"_type": "Restaurant", "_id": "125", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Boqueria Spanish Tapas - Soho", "id": "AIKjw2QLvVNdha3TciJYzg"}
+{ "index": {"_type": "Restaurant", "_id": "126", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Tomi\u00f1o Taberna Gallega", "id": "EHINHIbLklEUShuANKjGgw"}
+{ "index": {"_type": "Restaurant", "_id": "127", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Mercado Little Spain", "id": "rrL05CECQO4sQXCc5BF90g"}
+{ "index": {"_type": "Restaurant", "_id": "128", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Huertas", "id": "fVslDZ8dGsVmcRhS0R0kFg"}
+{ "index": {"_type": "Restaurant", "_id": "129", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Calle Ocho", "id": "H9GD7km7riFooM0FkdwOPg"}
+{ "index": {"_type": "Restaurant", "_id": "130", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Boqueria Spanish Tapas - Upper East Side", "id": "5S8ZK9XLdl4l645twbNYZQ"}
+{ "index": {"_type": "Restaurant", "_id": "131", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "El Born", "id": "gvMYV5E3HyzhN_MYFIMGzg"}
+{ "index": {"_type": "Restaurant", "_id": "132", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "El Pote Espa\u00f1ol Restaurant", "id": "5IGFJRN06HiclnivxaFThQ"}
+{ "index": {"_type": "Restaurant", "_id": "133", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Rincon Criollo", "id": "zekbMn7KWtzxTFLtfEqb1w"}
+{ "index": {"_type": "Restaurant", "_id": "134", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Boqueria Spanish Tapas - Flatiron", "id": "qIOAlXCCYrwN0VxEEH-Tmw"}
+{ "index": {"_type": "Restaurant", "_id": "135", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Sala One Nine", "id": "OUzTKc5YcCPOPG5e8Di67g"}
+{ "index": {"_type": "Restaurant", "_id": "136", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Mar at Mercado Little Spain", "id": "J5JJbRZ9ttn-TtS8KkmTNQ"}
+{ "index": {"_type": "Restaurant", "_id": "137", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Nai Tapas", "id": "iTj5T_jPYvznd1QTgs7NZw"}
+{ "index": {"_type": "Restaurant", "_id": "138", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Sevilla Restaurant", "id": "RQi2YmAkk8g9WdNStAhfbQ"}
+{ "index": {"_type": "Restaurant", "_id": "139", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "El Porron", "id": "W5j4EA1fDT3EKdXdKABG3Q"}
+{ "index": {"_type": "Restaurant", "_id": "140", "_index": "restaurants"} }
+{"cuisine": "spanish", "name": "Cabana", "id": "gEEqoeSekTOjRVmyY4fplA"}
+{ "index": {"_type": "Restaurant", "_id": "141", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "San Pedro", "id": "jfNc9_Of6ojLl4DVG9QKCw"}
+{ "index": {"_type": "Restaurant", "_id": "142", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "The Lighthouse", "id": "JmVm97rI9PbxqK85flMZuw"}
+{ "index": {"_type": "Restaurant", "_id": "143", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "The Dead Rabbit", "id": "RemvTpxalDjSew5HwmNzUQ"}
+{ "index": {"_type": "Restaurant", "_id": "144", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "The Ship", "id": "AydiQxXWQLqVrZ9sEZTxtw"}
+{ "index": {"_type": "Restaurant", "_id": "145", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "The Binc", "id": "5Fz1WlY3lxy8gJFs8s_1Dw"}
+{ "index": {"_type": "Restaurant", "_id": "146", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "The Up & Up", "id": "zWrZBXj5F2V_0UknnTfqbw"}
+{ "index": {"_type": "Restaurant", "_id": "147", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "Apoth\u00e8ke", "id": "P3NfoMjBy_o2BTNNZ-5okg"}
+{ "index": {"_type": "Restaurant", "_id": "148", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "Dusk Til Dawn Bar & Lounge", "id": "mcoY5kjynQ6aNnzKhgeOxw"}
+{ "index": {"_type": "Restaurant", "_id": "149", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "The Library", "id": "H8mnryiCI02N00g9vuFDLg"}
+{ "index": {"_type": "Restaurant", "_id": "150", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "Nitecap", "id": "iM3zYjjmnJ06VVmxvTo9eQ"}
+{ "index": {"_type": "Restaurant", "_id": "151", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "Botanica Bar", "id": "zvxUXRQOqzsyFiCKS09_JQ"}
+{ "index": {"_type": "Restaurant", "_id": "152", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "Attaboy", "id": "H7S7-vF2z_HfaLo6BGPetw"}
+{ "index": {"_type": "Restaurant", "_id": "153", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "Whiskey Tavern", "id": "c3Ww3pgeHjBi3ctkeUWrjQ"}
+{ "index": {"_type": "Restaurant", "_id": "154", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "Raines Law Room", "id": "J4pAppaiXwCkbLOGc4wHww"}
+{ "index": {"_type": "Restaurant", "_id": "155", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "District Social", "id": "eTR6nfHvQzvKX7Dcd6JrfA"}
+{ "index": {"_type": "Restaurant", "_id": "156", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "The Belfry", "id": "gjwELZmHUNO0WdqXYBEbcg"}
+{ "index": {"_type": "Restaurant", "_id": "157", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "1 Rooftop Garden & Bar", "id": "_Tn0eN5E37WBf8oVdOA9BA"}
+{ "index": {"_type": "Restaurant", "_id": "158", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "Rooftop 93", "id": "511OTzlr0FkL4esfBxMzIw"}
+{ "index": {"_type": "Restaurant", "_id": "159", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "Ward III", "id": "X_2RR5F7Bq3jos28dQuvlg"}
+{ "index": {"_type": "Restaurant", "_id": "160", "_index": "restaurants"} }
+{"cuisine": "bar", "name": "The Upstairs at 66", "id": "X0f9UYHoE4OxnuUq801vMg"}
+{ "index": {"_type": "Restaurant", "_id": "161", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Barn Joo 35", "id": "xZ96vaoL-cQjfotmUKtjJQ"}
+{ "index": {"_type": "Restaurant", "_id": "162", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Zusik", "id": "I6KHYESZdZQz0fnMaMyIpQ"}
+{ "index": {"_type": "Restaurant", "_id": "163", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "SSAM", "id": "cOXYWZ_GTX-_ue_kveguRg"}
+{ "index": {"_type": "Restaurant", "_id": "164", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Grand Seoul", "id": "QSWH-i8I4Rp1mWvXRIaFqQ"}
+{ "index": {"_type": "Restaurant", "_id": "165", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Thursday Kitchen", "id": "fVbUVAiLiGgLA_nxBFxyww"}
+{ "index": {"_type": "Restaurant", "_id": "166", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Oiji", "id": "FsuJ7VC5vxX3wcLhFrb97Q"}
+{ "index": {"_type": "Restaurant", "_id": "167", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "K'OOK", "id": "igcUHNvsKc-s-RtvUmkg2w"}
+{ "index": {"_type": "Restaurant", "_id": "168", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Silver Factory", "id": "L7_siqDfU4-ZA17YtA-SBg"}
+{ "index": {"_type": "Restaurant", "_id": "169", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Jongro BBQ", "id": "FZpm4_fbd6P984foOUejWg"}
+{ "index": {"_type": "Restaurant", "_id": "170", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Woorijip Authentic Korean Food", "id": "ogCC-lJJYnwXDvKGmKZ6Sw"}
+{ "index": {"_type": "Restaurant", "_id": "171", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "GunBae", "id": "0GN6l4FAknTFSWZhEan45A"}
+{ "index": {"_type": "Restaurant", "_id": "172", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Her Name Is Han", "id": "qY1o1MhoRyN84RRhUJtvpQ"}
+{ "index": {"_type": "Restaurant", "_id": "173", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Barn Joo", "id": "FizBsTIAJwNrImIG1mPDcg"}
+{ "index": {"_type": "Restaurant", "_id": "174", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Haenyeo", "id": "0U9uW93o9DUnAP7r-76LVg"}
+{ "index": {"_type": "Restaurant", "_id": "175", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Yoon Haeundae Galbi", "id": "EKkHfSYTm266-ZBve3SdgA"}
+{ "index": {"_type": "Restaurant", "_id": "176", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Bangia", "id": "pcb8yK9_28uWz5CyokjwSg"}
+{ "index": {"_type": "Restaurant", "_id": "177", "_index": "restaurants"} }
+{"cuisine": "korean", "name": " Tofu Tofu", "id": "vWoT1h8E2eWvIdJqpuxfdg"}
+{ "index": {"_type": "Restaurant", "_id": "178", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "JeJu Noodle Bar", "id": "xtxcAUvrD4dWHJd0cwvW1A"}
+{ "index": {"_type": "Restaurant", "_id": "179", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Anytime", "id": "VvsZAnEwU4c8Xkyrzx05Nw"}
+{ "index": {"_type": "Restaurant", "_id": "180", "_index": "restaurants"} }
+{"cuisine": "korean", "name": "Sik Gaek", "id": "2Bg8Jfl2FvH1unmvxNS0dQ"}
+{ "index": {"_type": "Restaurant", "_id": "181", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Hometown Bar-B-Que", "id": "Ms3CAGddVbgetiQrpzqxPQ"}
+{ "index": {"_type": "Restaurant", "_id": "182", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Mighty Quinn's Barbeque", "id": "LsITU8KVYMhV_fatv84wWA"}
+{ "index": {"_type": "Restaurant", "_id": "183", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Fette Sau", "id": "mlGfXoxc8cEss8Yms6VrXg"}
+{ "index": {"_type": "Restaurant", "_id": "184", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Mable's Smokehouse & Banquet Hall", "id": "nsAU6F2vmdnphmfIa_RuWg"}
+{ "index": {"_type": "Restaurant", "_id": "185", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Butcher Bar", "id": "nkfUKb7oWQt54Uz9VQLhUg"}
+{ "index": {"_type": "Restaurant", "_id": "186", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Friendship Foods BBQ", "id": "k8vE6g59i4JrAmXd6K1g5w"}
+{ "index": {"_type": "Restaurant", "_id": "187", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Dinosaur Bar-B-Que", "id": "XzUW9MvEGOFs9_aNj11j2Q"}
+{ "index": {"_type": "Restaurant", "_id": "188", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Pig Beach", "id": "Zzvqc7XcyGVX5bnjGN9IXA"}
+{ "index": {"_type": "Restaurant", "_id": "189", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Jongro BBQ", "id": "FZpm4_fbd6P984foOUejWg"}
+{ "index": {"_type": "Restaurant", "_id": "190", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Hometown Hotpot & BBQ", "id": "zEIt0xaPM9DIS-pc118O6A"}
+{ "index": {"_type": "Restaurant", "_id": "191", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Funny BBQ", "id": "_VWpp7qBwJTAEwc4U2QX8Q"}
+{ "index": {"_type": "Restaurant", "_id": "192", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Randalls Barbecue", "id": "6_PMTcR0SztUR9QVzDEtEA"}
+{ "index": {"_type": "Restaurant", "_id": "193", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "John Brown Smokehouse", "id": "4DQ1S0s5ViRsw_wpcT65cw"}
+{ "index": {"_type": "Restaurant", "_id": "194", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Dinosaur Bar-B-Que", "id": "0ef3Q3RvIqfFzZoOfA2amg"}
+{ "index": {"_type": "Restaurant", "_id": "195", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Kang Ho Dong Baekjeong", "id": "x9ADy3a--S_6Oqn_1KLipA"}
+{ "index": {"_type": "Restaurant", "_id": "196", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Shokunin BBQ", "id": "AAPJkyU0Y7Aci0RZBdJONg"}
+{ "index": {"_type": "Restaurant", "_id": "197", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "99 Favor Taste", "id": "Xf6e3HaP0AgMBxY7dEDkOA"}
+{ "index": {"_type": "Restaurant", "_id": "198", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Hill Country Barbecue Market", "id": "NlsxuhV6CUONOyI7xk7-mw"}
+{ "index": {"_type": "Restaurant", "_id": "199", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Pig Heaven", "id": "sfsjk1h50ooC2ioY7m48gw"}
+{ "index": {"_type": "Restaurant", "_id": "200", "_index": "restaurants"} }
+{"cuisine": "bbq", "name": "Red White & Que Smokehouse", "id": "PmevHhcrsfeAYuA7RBPh0g"}
