@@ -233,11 +233,11 @@ This is a Restaurant Suggestion Restaurant Chatbot based on AWS.
 
      - Notice the format of JSON data and have to add a trailing newline.
 
-     ![es_date](/Users/macbook/Desktop/Master 1/9223A-CC/Assignment 2/README/es_date.png)
+     ![es_date](https://github.com/MercuryTian/AWS-Restuarant-Suggestion-Chatbot/blob/master/README/es_date.png)
 
    - response:
 
-     ![es_response](/Users/macbook/Desktop/Master 1/9223A-CC/Assignment 2/README/es_response.png)
+     ![es_response](https://github.com/MercuryTian/AWS-Restuarant-Suggestion-Chatbot/blob/master/README/es_response.png)
 
 4. Search `cuisine` or `restaurant name` in ElasticSearch
 
