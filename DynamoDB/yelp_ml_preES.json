@@ -1,0 +1,482 @@
+[
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 1179,
+   "name": "Wah Fung No 1 Fast Food",
+   "cuisine": "chinese",
+   "price": "$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "79 Chrystie St",
+         "New York, NY 10002",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "79 Chrystie St",
+      "zip_code": 10002
+   },
+   "id": "X8ZS-dgiMIJvhwf9SaDnjw"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 663,
+   "name": "Shu Jiao Fu Zhou Cuisine Restaurant",
+   "cuisine": "chinese",
+   "price": "$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "118 Eldridge St",
+         "New York, NY 10002",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "118 Eldridge St",
+      "zip_code": 10002
+   },
+   "id": "lynQoI3w_pzYfHGeuUU-Qg"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 1179,
+   "name": "Wah Fung No 1 Fast Food",
+   "cuisine": "chinese",
+   "price": "$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "79 Chrystie St",
+         "New York, NY 10002",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "79 Chrystie St",
+      "zip_code": 10002
+   },
+   "id": "X8ZS-dgiMIJvhwf9SaDnjw"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 663,
+   "name": "Shu Jiao Fu Zhou Cuisine Restaurant",
+   "cuisine": "chinese",
+   "price": "$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "118 Eldridge St",
+         "New York, NY 10002",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "118 Eldridge St",
+      "zip_code": 10002
+   },
+   "id": "lynQoI3w_pzYfHGeuUU-Qg"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 670,
+   "name": "La Contenta",
+   "cuisine": "mexican",
+   "price": "$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "102 Norfolk St",
+         "New York, NY 10002",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "102 Norfolk St",
+      "zip_code": 10002
+   },
+   "id": "6Ct7OeTRn4caY9g0swFBsw"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 636,
+   "name": "Jajaja",
+   "cuisine": "mexican",
+   "price": "$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "162 E Broadway",
+         "New York, NY 10002",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "162 E Broadway",
+      "zip_code": 10002
+   },
+   "id": "XipQLDbyTl5tsLlyzAWzug"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 848,
+   "name": "Raku",
+   "cuisine": "japanese",
+   "price": "$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "342 E 6th St",
+         "New York, NY 10003",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "342 E 6th St",
+      "zip_code": 10003
+   },
+   "id": "FlZ1zdVEKWv7dwqm8Uw8-w"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 824,
+   "name": "DOMODOMO",
+   "cuisine": "japanese",
+   "price": "$$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "140 W Houston St",
+         "New York, NY 10012",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "140 W Houston St",
+      "zip_code": 10012
+   },
+   "id": "BPZfuPvSxCfoppU4lPFm0Q"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 1373,
+   "name": "Barn Joo 35",
+   "cuisine": "korean",
+   "price": "$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "34 W 35th St",
+         "New York, NY 10001",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "34 W 35th St",
+      "zip_code": 10001
+   },
+   "id": "xZ96vaoL-cQjfotmUKtjJQ"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 1139,
+   "name": "Thursday Kitchen",
+   "cuisine": "korean",
+   "price": "$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "424 E 9th St",
+         "New York, NY 10009",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "424 E 9th St",
+      "zip_code": 10009
+   },
+   "id": "fVbUVAiLiGgLA_nxBFxyww"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 748,
+   "name": "Whiskey Tavern",
+   "cuisine": "bar",
+   "price": "$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "79 Baxter St",
+         "New York, NY 10013",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "79 Baxter St",
+      "zip_code": 10013
+   },
+   "id": "c3Ww3pgeHjBi3ctkeUWrjQ"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 1392,
+   "name": "Raines Law Room",
+   "cuisine": "bar",
+   "price": "$$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "48 W 17th St",
+         "New York, NY 10011",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "48 W 17th St",
+      "zip_code": 10011
+   },
+   "id": "J4pAppaiXwCkbLOGc4wHww"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 1334,
+   "name": "The MasalaWala",
+   "cuisine": "indian",
+   "price": "$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "179 Essex St",
+         "New York, NY 10002",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "179 Essex St",
+      "zip_code": 10002
+   },
+   "id": "sCC7-hSdCkNPExejZT9BAQ"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 1506,
+   "name": "Bengal Tiger Indian Food",
+   "cuisine": "indian",
+   "price": "$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "58 W 56th St",
+         "Fl 2",
+         "New York, NY 10019"
+      ],
+      "country": "US",
+      "address2": "Fl 2",
+      "address3": "",
+      "state": "NY",
+      "address1": "58 W 56th St",
+      "zip_code": 10019
+   },
+   "id": "x0k5kFArHLijdY8-NEQ7Xg"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 875,
+   "name": "The Drunken Munkey - UES",
+   "cuisine": "indian",
+   "price": "$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "338 E 92nd St",
+         "New York, NY 10128",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "338 E 92nd St",
+      "zip_code": 10128
+   },
+   "id": "9pMhRYYgV7E9L7pzECtJKA"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 738,
+   "name": "Rincon Criollo",
+   "cuisine": "spanish",
+   "price": "$$",
+   "location": {
+      "city": "Corona",
+      "display_address": [
+         "40-09 Junction Blvd",
+         "Corona, NY 11368",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "40-09 Junction Blvd",
+      "zip_code": 11368
+   },
+   "id": "zekbMn7KWtzxTFLtfEqb1w"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 2557,
+   "name": "Club A Steakhouse",
+   "cuisine": "steakhouse",
+   "price": "$$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "240 E 58th St",
+         "New York, NY 10022",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "240 E 58th St",
+      "zip_code": 10022
+   },
+   "id": "A_YpTLbAlEqeLVSs9bxbEA"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 751,
+   "name": "DeStefano's Steakhouse",
+   "cuisine": "steakhouse",
+   "price": "$$$",
+   "location": {
+      "city": "Brooklyn",
+      "display_address": [
+         "89 Conselyea St",
+         "Brooklyn, NY 11211",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "89 Conselyea St",
+      "zip_code": 11211
+   },
+   "id": "hthvpEL7JEbfxfD6iP9axQ"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 2750,
+   "name": "Del Frisco's Double Eagle Steakhouse",
+   "cuisine": "steakhouse",
+   "price": "$$$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "1221 Ave Of The Americas",
+         "New York, NY 10020",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "1221 Ave Of The Americas",
+      "zip_code": 10020
+   },
+   "id": "b8a-8u_A51v2IzyjLVsx6w"
+},
+ {
+   "score": 0.762859165668,
+   "label": 1,
+   "rating": 4.5,
+   "review_count": 989,
+   "name": "Boucherie West Village",
+   "cuisine": "steakhouse",
+   "price": "$$$",
+   "location": {
+      "city": "New York",
+      "display_address": [
+         "99 7th Ave S",
+         "New York, NY 10014",
+         ""
+      ],
+      "country": "US",
+      "address2": "",
+      "address3": "",
+      "state": "NY",
+      "address1": "99 7th Ave S",
+      "zip_code": 10014
+   },
+   "id": "s3jou_L_LVYGkNHiuhjlew"
+}
+]

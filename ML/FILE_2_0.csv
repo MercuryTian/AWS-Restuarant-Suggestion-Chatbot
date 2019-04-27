@@ -1,0 +1,11 @@
+rating,review_count,name,cuisine,price,location/city,location/display_address/0,location/display_address/1,location/country,location/state,location/address1,location/zip_code,id,Recommended
+3.5,425,Sevilla Restaurant,spanish,$$,New York,62 Charles St,"New York, NY 10014",US,NY,62 Charles St,10014,RQi2YmAkk8g9WdNStAhfbQ,0
+3.5,42,Mercado Little Spain,spanish,$$,New York,10 Hudson Yards,"New York, NY 10001",US,NY,10 Hudson Yards,10001,rrL05CECQO4sQXCc5BF90g,0
+3.5,693,Yaso Tangbao,chinese,$$,Brooklyn,148 Lawrence St,"Brooklyn, NY 11201",US,NY,148 Lawrence St,11201,xH7mEjh4Rn6KdHjXYNoOjw,0
+3.5,816,Mad Dog & Beans Mexican Cantina,mexican,$$,New York,83 Pearl St,"New York, NY 10004",US,NY,83 Pearl St,10004,DTKKEogIt2wQm4UULYVGug,0
+3.5,2,Dusk Til Dawn Bar & Lounge,bar,,Brooklyn,193 Marcus Garvey Blvd,"Brooklyn, NY 11221",US,NY,193 Marcus Garvey Blvd,11221,mcoY5kjynQ6aNnzKhgeOxw,0
+3,37,1 Rooftop Garden & Bar,bar,$$$,Brooklyn,60 Furman St,"Brooklyn, NY 11201",US,NY,60 Furman St,11201,_Tn0eN5E37WBf8oVdOA9BA,0
+3.5,130,Friendship Foods BBQ,bbq,$$,Flushing,36-22 Union St,"Flushing, NY 11354",US,NY,36-22 Union St,11354,k8vE6g59i4JrAmXd6K1g5w,0
+3,172,Funny BBQ,bbq,$$,New York,98 Bowery,"New York, NY 10013",US,NY,98 Bowery,10013,_VWpp7qBwJTAEwc4U2QX8Q,0
+3.5,440,Gran Electrica,mexican,$$,Brooklyn,5 Front St,"Brooklyn, NY 11201",US,NY,5 Front St,11201,f7g3GhoQs9nQVTJEL2p48Q,0
+3.5,1499,Dinosaur Bar-B-Que,bbq,$$,Brooklyn,604 Union St,"Brooklyn, NY 11215",US,NY,604 Union St,11215,0ef3Q3RvIqfFzZoOfA2amg,0

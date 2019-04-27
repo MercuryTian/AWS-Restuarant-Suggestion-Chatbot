@@ -1,0 +1,40 @@
+{ "index": {"_type": "Prediction", "_id": "1", "_index": "predictions"} }
+{"name": "Wah Fung No 1 Fast Food", "cuisine": "chinese", "label": 1, "score": 0.762859165668, "id": "X8ZS-dgiMIJvhwf9SaDnjw"}
+{ "index": {"_type": "Prediction", "_id": "2", "_index": "predictions"} }
+{"name": "Han Dynasty", "cuisine": "chinese", "label": 1, "score": 0.762859165668, "id": "Q1TpfbuPwKPFrNFyu-u2_g"}
+{ "index": {"_type": "Prediction", "_id": "3", "_index": "predictions"} }
+{"name": "Wah Fung No 1 Fast Food", "cuisine": "chinese", "label": 1, "score": 0.762859165668, "id": "X8ZS-dgiMIJvhwf9SaDnjw"}
+{ "index": {"_type": "Prediction", "_id": "4", "_index": "predictions"} }
+{"name": "Shu Jiao Fu Zhou Cuisine Restaurant", "cuisine": "chinese", "label": 1, "score": 0.762859165668, "id": "lynQoI3w_pzYfHGeuUU-Qg"}
+{ "index": {"_type": "Prediction", "_id": "5", "_index": "predictions"} }
+{"name": "La Contenta", "cuisine": "mexican", "label": 1, "score": 0.762859165668, "id": "6Ct7OeTRn4caY9g0swFBsw"}
+{ "index": {"_type": "Prediction", "_id": "6", "_index": "predictions"} }
+{"name": "Jajaja", "cuisine": "mexican", "label": 1, "score": 0.762859165668, "id": "XipQLDbyTl5tsLlyzAWzug"}
+{ "index": {"_type": "Prediction", "_id": "7", "_index": "predictions"} }
+{"name": "Raku", "cuisine": "japanese", "label": 1, "score": 0.762859165668, "id": "FlZ1zdVEKWv7dwqm8Uw8-w"}
+{ "index": {"_type": "Prediction", "_id": "8", "_index": "predictions"} }
+{"name": "DOMODOMO", "cuisine": "japanese", "label": 1, "score": 0.762859165668, "id": "BPZfuPvSxCfoppU4lPFm0Q"}
+{ "index": {"_type": "Prediction", "_id": "9", "_index": "predictions"} }
+{"name": "Barn Joo 35", "cuisine": "korean", "label": 1, "score": 0.762859165668, "id": "xZ96vaoL-cQjfotmUKtjJQ"}
+{ "index": {"_type": "Prediction", "_id": "10", "_index": "predictions"} }
+{"name": "Thursday Kitchen", "cuisine": "korean", "label": 1, "score": 0.762859165668, "id": "fVbUVAiLiGgLA_nxBFxyww"}
+{ "index": {"_type": "Prediction", "_id": "11", "_index": "predictions"} }
+{"name": "Whiskey Tavern", "cuisine": "bar", "label": 1, "score": 0.762859165668, "id": "c3Ww3pgeHjBi3ctkeUWrjQ"}
+{ "index": {"_type": "Prediction", "_id": "12", "_index": "predictions"} }
+{"name": "Raines Law Room", "cuisine": "bar", "label": 1, "score": 0.762859165668, "id": "J4pAppaiXwCkbLOGc4wHww"}
+{ "index": {"_type": "Prediction", "_id": "13", "_index": "predictions"} }
+{"name": "The MasalaWala", "cuisine": "indian", "label": 1, "score": 0.762859165668, "id": "sCC7-hSdCkNPExejZT9BAQ"}
+{ "index": {"_type": "Prediction", "_id": "14", "_index": "predictions"} }
+{"name": "Bengal Tiger Indian Food", "cuisine": "indian", "label": 1, "score": 0.762859165668, "id": "x0k5kFArHLijdY8-NEQ7Xg"}
+{ "index": {"_type": "Prediction", "_id": "15", "_index": "predictions"} }
+{"name": "The Drunken Munkey - UES", "cuisine": "indian", "label": 1, "score": 0.762859165668, "id": "9pMhRYYgV7E9L7pzECtJKA"}
+{ "index": {"_type": "Prediction", "_id": "16", "_index": "predictions"} }
+{"name": "Rincon Criollo", "cuisine": "spanish", "label": 1, "score": 0.762859165668, "id": "zekbMn7KWtzxTFLtfEqb1w"}
+{ "index": {"_type": "Prediction", "_id": "17", "_index": "predictions"} }
+{"name": "Club A Steakhouse", "cuisine": "steakhouse", "label": 1, "score": 0.762859165668, "id": "A_YpTLbAlEqeLVSs9bxbEA"}
+{ "index": {"_type": "Prediction", "_id": "18", "_index": "predictions"} }
+{"name": "DeStefano's Steakhouse", "cuisine": "steakhouse", "label": 1, "score": 0.762859165668, "id": "hthvpEL7JEbfxfD6iP9axQ"}
+{ "index": {"_type": "Prediction", "_id": "19", "_index": "predictions"} }
+{"name": "Del Frisco's Double Eagle Steakhouse", "cuisine": "steakhouse", "label": 1, "score": 0.762859165668, "id": "b8a-8u_A51v2IzyjLVsx6w"}
+{ "index": {"_type": "Prediction", "_id": "20", "_index": "predictions"} }
+{"name": "Boucherie West Village", "cuisine": "steakhouse", "label": 1, "score": 0.762859165668, "id": "s3jou_L_LVYGkNHiuhjlew"}

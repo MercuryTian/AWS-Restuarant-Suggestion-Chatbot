@@ -1,0 +1,12 @@
+FILE_2,,,,,,,,,,,,,
+rating,review_count,name,cuisine,price,location/city,location/display_address/0,location/display_address/1,location/country,location/state,location/address1,location/zip_code,id,Recommended
+4.5,97,Xifu Food,chinese,$,Brooklyn,318 Livingston St,"Brooklyn, NY 11217",US,NY,318 Livingston St,11217,rPTX2J5KGDkN1QhPD-QOvg,1
+4.5,494,Fishmarket Restaurant,chinese,$$,New York,111 South St,"New York, NY 10038",US,NY,111 South St,10038,LpVbI-E9C-CSp7WhU5h2Iw,1
+4.5,339,Benson's NYC,american,$$,New York,181 Essex St,"New York, NY 10002",US,NY,181 Essex St,10002,x7hsZRd_MyrUgAW91FM9qA,1
+4.5,309,Don Chingon,mexican,$$,Brooklyn,216 Flatbush Ave,"Brooklyn, NY 11217",US,NY,216 Flatbush Ave,11217,X2C0_I0seTtjW9uL8e8FBw,1
+4.5,1373,Barn Joo 35,korean,$$,New York,34 W 35th St,"New York, NY 10001",US,NY,34 W 35th St,10001,xZ96vaoL-cQjfotmUKtjJQ,1
+4.5,848,Raku,japanese,$$,New York,342 E 6th St,"New York, NY 10003",US,NY,342 E 6th St,10003,FlZ1zdVEKWv7dwqm8Uw8-w,1
+4.5,1392,Raines Law Room,bar,$$$,New York,48 W 17th St,"New York, NY 10011",US,NY,48 W 17th St,10011,J4pAppaiXwCkbLOGc4wHww,1
+4,2827,Dinosaur Bar-B-Que,bbq,$$,Harlem,700 W 125th St,"Harlem, NY 10027",US,NY,700 W 125th St,10027,XzUW9MvEGOFs9_aNj11j2Q,1
+4.5,1506,Bengal Tiger Indian Food,indian,$$,New York,58 W 56th St,Fl 2,US,NY,58 W 56th St,10019,x0k5kFArHLijdY8-NEQ7Xg,1
+4.5,2750,Del Frisco's Double Eagle Steakhouse,steakhouse,$$$$,New York,1221 Ave Of The Americas,"New York, NY 10020",US,NY,1221 Ave Of The Americas,10020,b8a-8u_A51v2IzyjLVsx6w,1
