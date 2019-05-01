@@ -13,12 +13,12 @@ import logging
 
 
 ES_HOST = 'https://search-chatbot-najlxvv2ws7iy4mnqwtniy2ori.us-east-1.es.amazonaws.com'
-# ES_INDEX = 'predictions'
-# ES_TYPE = 'Prediction'
+ES_INDEX = 'restaurants'
+ES_TYPE = 'Restaurant'
 ACCESS_KEY = 'AKIAQ62D5RI7LQWPAH42'
 SECRET_ACCESS_KEY = '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'
 REGION = 'us-east-1'
-# URL = ES_HOST + '/' + ES_INDEX + '/' + ES_TYPE + '/_search'
+URL = ES_HOST + '/' + ES_INDEX + '/' + ES_TYPE + '/_search'
 SQS_URL = 'https://sqs.us-east-1.amazonaws.com/066177567294/requests'
 SENDER = 'zt586@nyu.edu'
 
@@ -74,10 +74,6 @@ def search_dynamodb(restaurants, req):
 
     return reservation
 
-def get_url(es_index, es_type, cuisine):
-    url = ES_HOST + '/' + es_index + '/' + es_type + '/_search'
-    search_url = url + '?q=' + cuisine
-    return search_url
 
 def lambda_handler(event, context):
 
@@ -102,32 +98,17 @@ def lambda_handler(event, context):
     print("REQ -- {}".format(json.dumps(req)))
     
     # make the HTTP request
-    cuisine = req["cuisine"].lower()
-    url = get_url('predictions', 'Prediction', cuisine)
+    url = URL + '?q=' + req["cuisine"].lower()
     r = requests.get(url, headers=headers)
     r_data = r.json()
     all_restaurants = r_data["hits"]["hits"] # list type
-    print("PREDICTION RESTAURANT --- {}".format(all_restaurants))
 
-    # get Machine Learning recommendation from ElasticSearch
-    if len(all_restaurants) < 3:
-        rest_url = get_url('restaurants', 'Restaurant', cuisine)
-        r = requests.get(rest_url, headers=headers)
-        r_data = r.json()
-        all_restaurants = r_data["hits"]["hits"] # list type
-        print("RANDOM RESTAURANT --- {}".format(all_restaurants))
+    # get randome restaurant recommendation from ElasticSearch
+    restaurants = random.sample(all_restaurants, 3) # list type, [{}, {}, {}]
+   
+    # fetch more information form DynamoDB
+    reservation = search_dynamodb(restaurants, req)
 
-        # get randome restaurant recommendation from ElasticSearch
-        restaurants = random.sample(all_restaurants, 3) # list type, [{}, {}, {}]
-        # fetch more information form DynamoDB
-        reservation = search_dynamodb(restaurants, req)
-
-    else:
-        restaurants = random.sample(all_restaurants, 3) # list type, [{}, {}, {}]
-        print("RESTAURANTs --- {}".format(restaurants))
-        reservation = search_dynamodb(restaurants, req)
-
-    
 ### --- send text confirmation by SNS --- ###
     email = str(req["email"])
 
